@@ -1,0 +1,44 @@
+
+.cover-view {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-top: 310rpx;
+}
+.container {
+	background: #CCCCCC;
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.btn1 {
+	width: 506rpx;
+	margin-top: 20rpx;
+	background-color: #4bb0f7;
+	color: #FFFFFF;
+	height: 90rpx;
+	border-radius: 45rpx;
+	font-family: FingFangSC-Medium;
+	font-size: 34rpx;
+}
+cover-image {
+	width: 622rpx;
+	height: 840rpx;
+}
+

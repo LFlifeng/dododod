@@ -1,0 +1,1 @@
+<view class="container"><cover-image src="../../static/authorize.png"></cover-image><cover-view class="cover-view"><button class="btn1">点击授权</button></cover-view></view>

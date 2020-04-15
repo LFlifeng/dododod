@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "票夹",
+  "pullRefresh": true,
+  "titleBarColor": "#f4f4f4",
+  "usingComponents": {
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}

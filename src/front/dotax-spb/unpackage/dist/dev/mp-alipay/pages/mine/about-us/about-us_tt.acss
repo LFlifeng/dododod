@@ -1,0 +1,40 @@
+
+.program-panel {
+	padding: 80rpx 0rpx 30rpx 0rpx;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+	margin-bottom: 30rpx;
+}
+.program-logo {
+	width: 120rpx;
+	height: 120rpx;
+}
+.uni-center .program-version {
+	font-size: 34rpx;
+}
+.uni-center .program-version:last-child {
+	margin-left: 10rpx;
+}
+.uni-padding-wrap {
+	margin-top: 30rpx;
+}
+.spb-navi-text {
+	font-size: 34rpx;
+	display: inline-block;
+	width: 20%;
+}
+.spb-navi-item .spb-navi-text:last-child {
+	text-align: right;
+	font-size: 30rpx;
+	color: #999;
+	display: inline-block;
+	width: 80%;
+}
+.uni-text {
+	margin: 0 32rpx;
+	text-indent: 60rpx;
+	font-size: 24rpx;
+	color: #999;
+	margin-top: 24rpx;
+}
+

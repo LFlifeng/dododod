@@ -1,0 +1,21 @@
+
+.spb-result-message .num {
+	color: #b60000;
+	
+	margin: 0 10rpx;
+}
+uni-button[type=default] {
+	color: #999;
+	font-size: 32rpx;
+	background-color: #eff0f1;
+	border-radius: 8rpx;
+	border: none;
+}
+uni-button[type=primary] {
+	color: #fff;
+	font-size: 32rpx;
+	background-color: #3d94ff;
+	border-radius: 8rpx;
+	border: none;
+}
+

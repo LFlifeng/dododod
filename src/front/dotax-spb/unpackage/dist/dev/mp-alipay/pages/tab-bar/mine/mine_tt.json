@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "我的",
+  "titleBarColor": "#f4f4f4",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

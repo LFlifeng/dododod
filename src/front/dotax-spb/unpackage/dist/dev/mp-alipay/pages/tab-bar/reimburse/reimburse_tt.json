@@ -1,0 +1,12 @@
+{
+  "defaultTitle": "报销",
+  "pullRefresh": true,
+  "titleBarColor": "#FFF",
+  "usingComponents": {
+    "ms-tabs": "/components/ms-tabs/ms-tabs",
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "m-tabs": "/components/ms-tabs/ms-tabs"
+  }
+}

@@ -1,0 +1,22 @@
+
+page {
+	background-color: #ffffff;
+}
+.content {
+	margin: 20rpx 10rpx;
+	text-align: center;
+	font-family: ‌FingFangSC_Regular;
+	padding: 5rpx;
+}
+.content .item {
+	margin-top: 20rpx;
+	font-family: ‌FingFangSC_Regular;
+}
+.tipsMsg {
+	font-size: 35rpx;
+	font-family: ‌FingFangSC_Regular;
+}
+.item button{
+	font-family: ‌FingFangSC_Regular;
+}
+

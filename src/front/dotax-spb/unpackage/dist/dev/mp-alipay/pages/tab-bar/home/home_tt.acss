@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #f4f4f4;
+  padding-bottom: 20rpx;
+}
+#home_icon_icon {
+  width: 56rpx;
+  height: 48rpx;
+  position: fixed;
+  top: 20rpx;
+  left: 24rpx;
+  z-index: 100000;
+}
+.home-banner {
+  height: 360rpx;
+  width: 100%;
+}
+.home-banner image {
+  height: 100%;
+  width: 100%;
+  margin: 0rpx;
+  z-index: 5;
+}
+/* 一般功能 */
+.home_cont {
+  background-color: #fff;
+}
+.home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.home_icon {
+  width: 328rpx;
+  height: 188rpx;
+  text-align: center;
+  border-radius: 8rpx;
+  margin-top: 40rpx;
+}
+.cy {
+  background-color: #f0f7ff;
+  margin-right: 30rpx;
+}
+.sp {
+  background-color: #f3f3ff;
+}
+.pj {
+  background-color: #fdf4e8;
+  margin-right: 30rpx;
+  margin-bottom: 40rpx;
+}
+.dd {
+  background-color: #fdefed;
+  margin-bottom: 40rpx;
+}
+.home_icon .home_text {
+  color: #666;
+  font-size: 28rpx;
+  text-align: center;
+}
+.home_icon image {
+  width: 96rpx;
+  height: 96rpx;
+  margin-top: 24rpx;
+}
+/* 发票抬头 */
+.info {
+  display: block;
+}
+.tt_info {
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.tt_title {
+  width: 100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-left: 32rpx;
+  font-size: 32rpx;
+}
+.tt_cont {
+  width: 688rpx;
+  height: 128rpx;
+  background-color: #f4f4f4;
+  margin-left: 32rpx;
+  border-radius: 8rpx;
+  clear: both;
+}
+.cont {
+  float: left;
+  margin-left: 24rpx;
+}
+.cont .cont_title {
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 24rpx;
+}
+.cont .cont_code {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 8rpx;
+}
+.copy {
+  float: right;
+  width: 140rpx;
+  height: 60rpx;
+  background-image: -webkit-repeating-linear-gradient(left, #3D94FF 50%, #2782F3 50%);
+  background-image: repeating-linear-gradient(to right, #3D94FF 50%, #2782F3 50%);
+  font-size: 28rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  margin-right: 24rpx;
+  margin-top: 38rpx;
+}
+.more {
+  font-size: 24rpx;
+  color: #666;
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-top: 1rpx solid #d8d8d8;
+  margin-top: 40rpx;
+}
+/* 立即添加 */
+.info_add {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 28rpx;
+}
+.add {
+  width: 350rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  color: #999;
+  line-height: 72rpx;
+  text-align: center;
+  border: 2rpx solid #ccc;
+  border-radius: 36rpx;
+  margin: 0 auto;
+}
+

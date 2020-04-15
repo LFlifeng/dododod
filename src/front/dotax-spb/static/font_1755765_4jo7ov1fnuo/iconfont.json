@@ -1,0 +1,156 @@
+{
+  "id": "1755765",
+  "name": "1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13975678",
+      "name": "通用-搜索",
+      "font_class": "icon_use_search",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "14043083",
+      "name": "通用_附件",
+      "font_class": "icon_tongyong_fujian",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "14043177",
+      "name": "通用_列表更多",
+      "font_class": "icon_tongyong_liebiaogengduo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "14060370",
+      "name": "个人邮箱_侧边栏_标记",
+      "font_class": "gerenyouxiang_cebianlan_biaoji",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "14060371",
+      "name": "个人邮箱_侧边栏_草稿箱",
+      "font_class": "gerenyouxiang_cebianlan_caogaoxiang",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "14060372",
+      "name": "个人邮箱_侧边栏_发送",
+      "font_class": "gerenyouxiang_cebianlan_fasong",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "14060373",
+      "name": "个人邮箱_侧边栏_垃圾桶",
+      "font_class": "gerenyouxiang_cebianlan_lajitong",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "14060374",
+      "name": "个人邮箱_侧边栏_收藏星标",
+      "font_class": "gerenyouxiang_cebianlan_shoucangxingbiao",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "14060375",
+      "name": "个人邮箱_侧边栏_收件箱",
+      "font_class": "gerenyouxiang_cebianlan_shoujianxiang",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "14060376",
+      "name": "个人邮箱_侧边栏_文件夹",
+      "font_class": "gerenyouxiang_cebianlan_wenjianjia",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "14060377",
+      "name": "个人邮箱_侧边栏_垃圾邮件",
+      "font_class": "gerenyouxiang_cebianlan_lajiyoujian",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "14060378",
+      "name": "通用_下拉",
+      "font_class": "tongyong_xiala",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "14060379",
+      "name": "icon／侧边栏／星标邮件",
+      "font_class": "iconcebianlanxingbiaoyoujian",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "14060430",
+      "name": "个人邮箱_工具栏_已读",
+      "font_class": "gerenyouxiang_cebianlan_yidu",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "14060431",
+      "name": "个人邮箱_工具栏_置顶",
+      "font_class": "gerenyouxiang_cebianlan_zhiding",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "14060432",
+      "name": "个人邮箱_侧边栏_收藏星标",
+      "font_class": "gerenyouxiang_cebianlan_shoucangxingbiao1",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "14061159",
+      "name": "工具栏_全部回复",
+      "font_class": "gerenyouxiang_cebianlan_quanbuhuifu",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "14061162",
+      "name": "工具栏_定时",
+      "font_class": "gongjulan_dingshi",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "14065638",
+      "name": "通用_添加",
+      "font_class": "tongyong_tianjia",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "14071013",
+      "name": "通用_上拉",
+      "font_class": "tongyong_shangla",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "14071118",
+      "name": "通用_更多",
+      "font_class": "tongyong_gengduo",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}

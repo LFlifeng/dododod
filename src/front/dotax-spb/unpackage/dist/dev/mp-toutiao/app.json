@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/tab-bar/home/home_tt",
+    "pages/tab-bar/ticket/ticket_tt",
+    "pages/tab-bar/reimburse/reimburse",
+    "pages/dd/dd",
+    "pages/tab-bar/mine/mine_tt",
+    "pages/mine/about-us/about-us_tt",
+    "pages/income/submitPage/submitPage",
+    "pages/result/choose-invoice-result/choose-invoice-result_tt",
+    "pages/result/submit-reimburse-result/submit-reimburse-result_tt",
+    "pages/ticket/detail/detail_tt",
+    "pages/ticket/choose/choose_tt",
+    "pages/rise/invoice-rise_tt",
+    "pages/rise/invoice-detail_tt",
+    "pages/rise/invoice-add_tt",
+    "pages/reimburse/detail/detail",
+    "pages/authorize/authorize",
+    "pages/reimburse/print/print",
+    "pages/ticket/choose-image/choose-image_tt",
+    "pages/ticket/recgz-images/recgz-images_tt",
+    "pages/tab-bar/home/home_tt",
+    "pages/reimburse/detail/detail_tt",
+    "pages/tab-bar/reimburse/reimburse_tt"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "多啦收票宝",
+    "navigationBarBackgroundColor": "#00acff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#646a73",
+    "selectedColor": "#3994ff",
+    "borderStyle": "white",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tab-bar/home/home_tt",
+        "iconPath": "static/tab/home_Icon_unchecked.png",
+        "selectedIconPath": "static/tab/home_Icon_checked.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tab-bar/reimburse/reimburse_tt",
+        "iconPath": "static/tab/baoxiao_Icon_unchecked.png",
+        "selectedIconPath": "static/tab/baoxiao_Icon_checked.png",
+        "text": "报销"
+      },
+      {
+        "pagePath": "pages/tab-bar/mine/mine_tt",
+        "iconPath": "static/tab/me_Icon_unchecked.png",
+        "selectedIconPath": "/static/tab/me_Icon_checked.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,244 @@
+{
+	"pages": [{
+			"path": "pages/tab-bar/home/home_tt",
+			"style": {
+				"navigationBarTitleText": "收票宝",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#3d94ff",
+				"mp-toutiao": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"type":"home",
+								"color": "#fff",
+								"float":"left",
+								"fontSrc": "./components/uni-icons/icons.js",
+								"text":"\ue500"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/tab-bar/ticket/ticket_tt",
+			"style": {
+				"navigationBarTitleText": "票夹",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/tab-bar/reimburse/list",
+			"style": {
+				"navigationBarTitleText": "报销列表",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/dd/dd",
+			"style": {
+				"navigationBarTitleText": "滴滴",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/tab-bar/mine/mine_tt",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/mine/about-us/about-us_tt",
+			"style": {
+				"navigationBarTitleText": "关于收票宝",
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/income/submitPage/submitPage"
+		}, {
+			"path": "pages/result/choose-invoice-result/choose-invoice-result_tt",
+			"style": {
+				"navigationBarTitleText": "提示",
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/result/submit-reimburse-result/submit-reimburse-result_tt",
+			"style": {
+				"navigationBarTitleText": "提示",
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/ticket/detail/detail_tt",
+			"style": {
+				"navigationBarTitleText": "票据详情",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/ticket/choose/choose_tt",
+			"style": {
+				"navigationBarTitleText": "票夹",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/rise/invoice-rise_tt",
+			"style": {
+				"navigationBarTitleText": "发票抬头",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/rise/invoice-detail_tt",
+			"style": {
+				"navigationBarTitleText": "抬头详情",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#3d94ff",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/rise/invoice-add_tt",
+			"style": {
+				"navigationBarTitleText": "新增抬头",
+				"enablePullDownRefresh": true
+				// "backgroundColor": "#fff",
+			}
+		},
+		{
+			"path": "pages/reimburse/detail/detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+
+			}
+		}, {
+			"path": "pages/authorize/authorize"
+		}, {
+			"path": "pages/reimburse/print/print"
+		}, {
+			"path": "pages/ticket/choose-image/choose-image_tt",
+			"style": {
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+				// "navigationBarTitleText": "拍照预览"
+			}
+		}, {
+			"path": "pages/ticket/recgz-images/recgz-images_tt",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarBackgroundColor": "#f4f4f4",
+				// "backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/tab-bar/home/home_tt",
+			"style": {
+				"navigationBarTitleText": "收票宝",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#3d94ff"
+
+			}
+		}, {
+			"path": "pages/reimburse/detail/detail_tt",
+			"style": {
+				"navigationBarTitleText": "报销",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#FFF",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/tab-bar/reimburse/reimburse_tt",
+			"style": {
+				"navigationBarTitleText": "报销",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#FFF",
+				"navigationBarTextStyle": "black"
+			}
+		}
+		// , {
+		// 	"path": "pages/result/submit-reimburse-result/submit-reimburse-result-tt",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"navigationBarBackgroundColor": "#f4f4f4",
+		// 		"navigationBarTextStyle": "black"
+		// 	}
+		// }
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#646a73",
+		"selectedColor": "#3994ff",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				// "pagePath": "pages/tab-bar/home/home",
+				"pagePath": "pages/tab-bar/home/home_tt",
+				"iconPath": "static/tab/home_Icon_unchecked.png",
+				"selectedIconPath": "static/tab/home_Icon_checked.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/tab-bar/ticket/ticket",
+			// 	"iconPath": "static/tab/pj.png",
+			// 	"selectedIconPath": "static/tab/pj-hl.png",
+			// 	"text": "票夹"
+			// }, 
+			{
+				"pagePath": "pages/tab-bar/reimburse/reimburse_tt",
+				"iconPath": "static/tab/baoxiao_Icon_unchecked.png",
+				"selectedIconPath": "static/tab/baoxiao_Icon_checked.png",
+				"text": "报销"
+			}, {
+				"pagePath": "pages/tab-bar/mine/mine_tt",
+				"iconPath": "static/tab/me_Icon_unchecked.png",
+				"selectedIconPath": "/static/tab/me_Icon_checked.png",
+				"text": "我的"
+			}
+			// ,
+			// {
+			// 	"pagePath": "pages/tab-bar/index/index",
+			// 	"iconPath": "static/tab/me.png",
+			// 	"selectedIconPath": "static/tab/me-hl.png",
+			// 	"text": "test"
+			// }
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "多啦收票宝",
+		"navigationBarBackgroundColor": "#00acff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

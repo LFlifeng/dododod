@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.head-section {
+  display: block;
+  position: relative;
+  height: 88rpx;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #666666;
+  line-height: 88rpx;
+}
+.head-section .cy-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 0rpx;
+    right: 0rpx;
+    bottom: 0rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.head-section .cy-icon text {
+      margin-right: 30rpx;
+      background-repeat: no-repeat;
+      font-size: 20rpx;
+      background-size: 25rpx;
+      border-radius: 6rpx;
+      padding: 0rpx 10rpx 0rpx 40rpx;
+      background-position: 10rpx center;
+}
+.head-section .cy-icon .cy-null,
+    .head-section .cy-icon .cy-0,
+    .head-section .cy-icon .cy-3 {
+      color: #F39C39;
+      background-image: url(/static/pj/cy-doing.png);
+}
+.head-section .cy-icon .cy-1 {
+      color: #03A401;
+      background-image: url(/static/pj/cy-success.png);
+}
+.head-section .cy-icon .cy-2 {
+      color: #CB0606;
+      background-image: url(/static/pj/cy-error.png);
+}
+.body-section {
+  position: absolute;
+  bottom: 500rpx;
+  top: 108rpx;
+  left: 0rpx;
+  right: 0rpx;
+  padding: 15rpx 0rpx 0rpx 0rpx;
+  background-color: #f4f4f4;
+}
+.body-section .body-content {
+    padding: 10rpx 0rpx 0rpx 0rpx;
+}
+.body-section .props-item:first-child {
+    border: none;
+}
+.body-section .props-item {
+    font-size: 34rpx;
+    border-top: 1rpx solid #E5E5E5;
+    padding: 0rpx 32rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+}
+.body-section .props-item .prop-label {
+      height: 80rpx;
+      line-height: 80rpx;
+}
+.body-section .props-item .prop-value,
+    .body-section .props-item .edit-value {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      height: 90rpx;
+      line-height: 90rpx;
+      padding: 0;
+}
+.body-section .props-item picker,
+    .body-section .props-item .prop-value,
+    .body-section .props-item .edit-value {
+      width: 60%;
+}
+.body-section .props-item .prop-label {
+      color: #333333;
+      font-size: 34rpx;
+      width: 40%;
+}
+.body-section .props-item .prop-value {
+      color: #999999;
+      font-size: 34rpx;
+}
+.body-section .props-item .edit-value {
+      color: #999;
+}
+.body-section .check-block {
+    padding: 0rpx 0rpx;
+}
+.body-section .check-block .cg-cont {
+      padding: 0rpx 30rpx 20rpx 30rpx;
+}
+.body-section .check-block .cg-cont .cont-item .label {
+        font-size: 28rpx;
+        color: #555555;
+}
+.body-section .check-block .cg-cont .cont-item .value {
+        font-size: 26rpx;
+        color: #999999;
+}
+.body-section .check-block .cg-cont .hwmx-cont {
+        padding: 0rpx 0rpx;
+}
+.body-section .check-block .cg-cont .hwmx-cont .subject {
+          font-size: 28rpx;
+          color: #555555;
+          border-bottom: double 4rpx #333333;
+}
+.body-section .check-block .cg-cont .hwmx-cont .hwmx-item {
+          padding: 0rpx 10rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          font-size: 26rpx;
+          color: #999999;
+          border-bottom: solid 1rpx #777777;
+}
+.body-section .check-block .cg-cont .hwmx-cont .hwmx-item .mc {
+            width: 50%;
+}
+.body-section .check-block .cg-cont .hwmx-cont .hwmx-item .je {
+            width: 25%;
+            padding-left: 5rpx;
+}
+.body-section .check-block .cg-cont .hwmx-cont .hwmx-item .se {
+            width: 25%;
+            padding-left: 5rpx;
+}
+.body-section .check-block .sb-cont {
+      padding: 0rpx 30rpx 20rpx 30rpx;
+}
+.body-section .check-block .sb-cont .message {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+                align-items: flex-end;
+        font-size: 28rpx;
+        color: #FF3333;
+        font-weight: 500;
+}
+.body-section .check-block .sb-cont .message text {
+          font-size: 26rpx;
+          color: #C91702;
+}
+.body-section-wt {
+  bottom: 140rpx;
+}
+.image-section {
+  position: absolute;
+  bottom: 220rpx;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 240rpx;
+  padding-top: 60rpx;
+}
+.image-section image {
+    width: 440rpx;
+    height: 340rpx;
+    background-color: #EEEEEE;
+    border-radius: 10rpx;
+}
+.oprt-section {
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  padding: 0rpx;
+}
+.oprt-section .btn-group {
+    background-color: #FFFFFF;
+    border-top: 1rpx solid #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding: 30rpx 40rpx;
+    height: 100rpx;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.oprt-section .btn-group button {
+      width: 48%;
+      height: 80rpx;
+      line-height: 80rpx;
+      border-color: #fff;
+}
+.oprt-section .btn-group button .uni-button:after {
+        border: none;
+}
+.oprt-section .btn-group button[type="primary"] {
+      background-color: #3D94FF;
+}
+.oprt-section-wt {
+  height: 120rpx;
+}
+.oprt-section-wt .btn-group {
+    height: 120rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.right_icon {
+  width: 16rpx;
+  height: 26rpx;
+  margin-left: 20rpx;
+}
+.uni-collapse-cell--hide.uni-collapse-cell {
+  background-color: #f4f4f4;
+  border: none;
+  text-align: center;
+}
+

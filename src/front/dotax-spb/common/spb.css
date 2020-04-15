@@ -1,0 +1,77 @@
+page {
+	background-color: #F6F7F9;
+	height: 100%;
+	font-size: 28rpx;
+	line-height: 1.8;
+	min-height: 100%;
+}
+
+.spb-clear {
+	float: none;
+	clear: both;
+}
+
+.spb-navi-item {
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-color: #EEEEEE;
+	border-bottom-width: 1rpx;
+	padding: 0rpx 30rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+}
+
+.spb-navi-item:active {
+	background-color: #F8F8F8;
+}
+
+.spb-navi-text {
+	color: #333333;
+	font-size: 28rpx;
+	font-weight: normal;
+}
+
+.spb-navi-icon {
+	margin-left: 15rpx;
+	color: #999999;
+	font-size: 30rpx;
+	font-weight: normal;
+}
+
+.spb-result-cont {
+	padding-top: 80rpx;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.spb-result-oprt navigator {
+	margin-bottom: 20rpx;
+}
+
+.spb-result-subject {
+	font-size: 48rpx;
+	color: #000000;
+}
+
+.spb-result-message {
+	font-size: 28rpx;
+	color: #666666;
+	margin-bottom: 40rpx;
+}
+
+.spb-action-suspend {
+	position: fixed;
+	right: 50rpx;
+	bottom: 200rpx;
+	width: 132rpx;
+	height: 132rpx;
+}
+
+.spb-action-suspend image {
+	width: 130rpx;
+	height: 130rpx;
+	background-color: #F4F4F4;
+	border: 1px solid #F4F4F4;
+	border-radius: 65rpx;
+}
