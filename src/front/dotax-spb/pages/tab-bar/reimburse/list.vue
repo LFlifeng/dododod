@@ -1,7 +1,6 @@
 <template>
 	<view class="">
 		<view class="index-list">
-			
 			<view class="index-list1">
 				<view class="">
 					<!-- widthFix 图片自适应属性-->
