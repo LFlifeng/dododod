@@ -5,7 +5,6 @@ import {
 	http
 } from 'utils/luch-request/index.js'
 
-
 Vue.prototype.$store = store
 Vue.prototype.$http = http;
 Vue.config.productionTip = false;
